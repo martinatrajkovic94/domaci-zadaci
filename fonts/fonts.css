@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* importovanje fontova iz fajla */
+@font-face{
+    src: url('fonts/Chango-Regular.ttf');
+    font-family: chango-regular;
+}
+@font-face{
+  src: url('fonts/Roboto-Regular.ttf');
+  font-family: roboto-regular;
+}
+span {
+  font-size: 35px;
+  display: block;
+  margin: 20px;
+  font-family:  roboto-regular;
+  font-style: italic;
+  letter-spacing: 20px;
+  text-decoration: underline;
+}
+
+/* importovanje fontova preuzetih sa google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+
+span:nth-child(odd) {
+  font-family: "Syne Mono", monospace;
+}
+
+
+span:nth-child(1) {
+  font-weight: 100;
+}
+span:nth-child(2) {
+  font-weight: 200;
+}
+span:nth-child(3) {
+  font-weight: 300;
+}
+span:nth-child(4) {
+  font-weight: 400;
+}
+span:nth-child(5) {
+  font-weight: 500;
+}
+span:nth-child(6) {
+  font-weight: 600;
+}
+span:nth-child(7) {
+  font-weight: 700;
+}
+span:nth-child(8) {
+  font-weight: 800;
+}
+span:nth-child(9) {
+  font-weight: 900;
+}
+
+h1{
+  font-size: 50px;
+  margin: 20px;
+  font-family: chango-regular;
+  background: linear-gradient(rgb(131, 221, 224),rgb(253, 253, 99), rgb(238, 63, 200));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
