@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.wrapper {
+  height: 80vh;
+  width: 80vw;
+  position: relative;
+}
+.left,
+.top,
+.bottom {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.left {
+  width: 50%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: lightblue;
+}
+.top {
+  width: 50%;
+  height: 50%;
+  top: 0;
+  right: 0;
+  background-color: lightcoral;
+}
+.bottom {
+  width: 50%;
+  height: 50%;
+  bottom: 0;
+  right: 0;
+  background-color: lightgreen;
+}

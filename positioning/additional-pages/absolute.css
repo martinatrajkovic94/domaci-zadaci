@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #6592CF;
+}
+.wrapper{
+    width: 80vw;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rect{
+    width: 80vw;
+    height: 60vh;
+    background-color: #243D83;
+    position: absolute;
+}
+.first-circle{
+    width: 60vw;
+    height: 60vw;
+    border-radius: 50%;
+    background-color: #6592CF;
+    position: absolute;
+}
+.second-circle{
+    background-color: #EEB850;
+    height: 20vw;
+    width: 20vw;
+    position: absolute;
+    border-radius: 50%;
+    border: 10vw solid #243D83;
+}
