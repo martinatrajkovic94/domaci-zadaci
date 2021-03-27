@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  height: 100vh;
+}
+
+.animate {
+  position: relative;
+  animation-name: movingPosition;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  height: 20vw;
+  width: 20vw;
+}
+
+@keyframes movingPosition {
+  0%,
+  100% {
+    left: 0;
+    top: 0;
+    background-color: lightcoral;
+  }
+  25% {
+    left: calc(100% - 20vw);
+    top: 0;
+    background-color: lightblue;
+  }
+  50% {
+    left: calc(100% - 20vw);
+    top: calc(100% - 20vw);
+    background-color: lightgreen;
+  }
+  75% {
+    left: 0;
+    top: calc(100% - 20vw);
+    background-color: lightgoldenrodyellow;
+  }
+}

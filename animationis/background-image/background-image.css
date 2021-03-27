@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animate {
+  animation-name: imageSlider;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 500px;
+}
+
+@keyframes imageSlider {
+  0%,
+  100% {
+    background-image: url("https://icatcare.org/app/uploads/2018/06/Layer-1704-1200x630.jpg");
+    border-radius: 0;
+  }
+  25% {
+    background-image: url("https://ichef.bbci.co.uk/news/976/cpsprodpb/41CF/production/_109474861_angrycat-index-getty3-3.jpg");
+    border-radius: 50%;
+  }
+  50% {
+    background-image: url("https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/cat_relaxing_on_patio_other/1800x1200_cat_relaxing_on_patio_other.jpg");
+    border-radius: 50%;
+  }
+  75% {
+    background-image: url("https://i.natgeofe.com/n/3861de2a-04e6-45fd-aec8-02e7809f9d4e/02-cat-training-NationalGeographic_1484324.jpg?w=636&h=424");
+    border-radius: 25%;
+  }
+}
